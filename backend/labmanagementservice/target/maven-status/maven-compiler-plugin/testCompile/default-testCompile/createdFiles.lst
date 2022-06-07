@@ -1,0 +1,6 @@
+org/diagnostics/labmanagementservice/converter/LabConverterTest.class
+org/diagnostics/labmanagementservice/exception/LabExceptionTest.class
+org/diagnostics/labmanagementservice/dto/LabDTOTest.class
+org/diagnostics/labmanagementservice/controller/LabManagementControllerTest.class
+org/diagnostics/labmanagementservice/entity/LabEntityTest.class
+org/diagnostics/labmanagementservice/service/LabServiceTest.class

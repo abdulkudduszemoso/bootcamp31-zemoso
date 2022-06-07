@@ -1,0 +1,11 @@
+org/diagnostics/ordermanagementservice/service/AddressServiceTest.class
+org/diagnostics/ordermanagementservice/service/PatientServiceTest.class
+org/diagnostics/ordermanagementservice/converter/PatientConverterTest.class
+org/diagnostics/ordermanagementservice/converter/AddressConverterTest.class
+org/diagnostics/ordermanagementservice/entity/PatientEntityTest.class
+org/diagnostics/ordermanagementservice/dto/PatientDTOTest.class
+org/diagnostics/ordermanagementservice/entity/AddressEntityTest.class
+org/diagnostics/ordermanagementservice/Exception/PatientExceptionTest.class
+org/diagnostics/ordermanagementservice/Exception/AddressExceptionTest.class
+org/diagnostics/ordermanagementservice/controller/OrderManagementControllerTest.class
+org/diagnostics/ordermanagementservice/dto/AddressDtoTest.class

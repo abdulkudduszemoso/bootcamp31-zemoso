@@ -1,0 +1,87 @@
+{
+  "patients": [
+    {
+      "name": "Prajeev",
+      "gender": "Female",
+      "dateOfBirth": "22",
+      "relation": "Self",
+      "selected": false,
+      "id": 1
+    }
+  ],
+  "labs": [
+    {
+      "id": 1,
+      "labLogo": "../../../../public/assets/images/altos.svg",
+      "labName": "Los Altos Center Lab",
+      "rating": 4.3,
+      "slots": 4,
+      "reportsTime": "Reports ready in 24 hrs",
+      "cost": 1200
+    },
+    {
+      "id": 2,
+      "labLogo": "../../../../public/assets/images/altos.svg",
+      "labName": "Los Altos Center Lab",
+      "rating": 3.8,
+      "slots": 2,
+      "reportsTime": "Reports ready in 24 hrs",
+      "cost": 1050
+    }
+  ],
+  "addresses": [
+    {
+      "id": 1,
+      "addressNumber": "Default Address",
+      "addressType": "Home",
+      "houseNo": "2235 California Street APT#021",
+      "area": "Mountain View California",
+      "zipCode": "11023",
+      "city": "Mountain View",
+      "state": "California"
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "labName": "Los Altos Center Lab",
+      "testName": "COVID RT-PCR Test",
+      "status": "pending",
+      "date": "",
+      "time": ""
+    },
+    {
+      "id": 2,
+      "labName": "Los Altos Center Lab",
+      "testName": "COVID RT-PCR Test",
+      "status": "finished",
+      "date": "02 Feb 2022",
+      "time": "08:30 AM"
+    },
+    {
+      "id": 3,
+      "labName": "Los Altos Center Lab",
+      "testName": "COVID RT-PCR Test",
+      "status": "finished",
+      "date": "02 Feb 2022",
+      "time": "08:30 AM"
+    },
+    {
+      "id": 4,
+      "labName": "Los Altos Center Lab",
+      "testName": "COVID RT-PCR Test",
+      "status": "finished",
+      "date": "02 Feb 2022",
+      "time": "08:30 AM"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "name": "Patrick Smith",
+      "testName": "COVID RT-PCR Test",
+      "cost": "$1200",
+      "address": "2235 California Street Mountain View California APT California 10894"
+    }
+  ]
+}

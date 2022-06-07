@@ -1,0 +1,8 @@
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/reportmanagementservice/src/main/java/org/diagnostics/reportmanagementservice/service/implementation/ReportsServiceImplementation.java
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/reportmanagementservice/src/main/java/org/diagnostics/reportmanagementservice/ReportmanagementserviceApplication.java
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/reportmanagementservice/src/main/java/org/diagnostics/reportmanagementservice/service/ReportsService.java
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/reportmanagementservice/src/main/java/org/diagnostics/reportmanagementservice/repository/ReportRepository.java
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/reportmanagementservice/src/main/java/org/diagnostics/reportmanagementservice/dto/ReportDto.java
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/reportmanagementservice/src/main/java/org/diagnostics/reportmanagementservice/entity/Report.java
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/reportmanagementservice/src/main/java/org/diagnostics/reportmanagementservice/controller/ReportManagementController.java
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/reportmanagementservice/src/main/java/org/diagnostics/reportmanagementservice/converter/ReportConverter.java

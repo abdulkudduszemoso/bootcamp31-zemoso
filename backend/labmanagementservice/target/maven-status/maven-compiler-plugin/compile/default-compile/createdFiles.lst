@@ -1,0 +1,10 @@
+org/diagnostics/labmanagementservice/exception/LabServiceException.class
+org/diagnostics/labmanagementservice/LabmanagementserviceApplication.class
+org/diagnostics/labmanagementservice/dto/LabDTO.class
+org/diagnostics/labmanagementservice/entity/Lab.class
+org/diagnostics/labmanagementservice/controller/LabManagementController.class
+org/diagnostics/labmanagementservice/converter/LabConverter.class
+org/diagnostics/labmanagementservice/repository/LabRepository.class
+org/diagnostics/labmanagementservice/service/LabService.class
+org/diagnostics/labmanagementservice/LabmanagementserviceApplication$1.class
+org/diagnostics/labmanagementservice/service/LabServiceImplementation.class

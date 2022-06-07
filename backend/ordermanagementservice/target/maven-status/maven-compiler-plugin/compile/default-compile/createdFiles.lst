@@ -1,0 +1,16 @@
+org/diagnostics/ordermanagementservice/converter/PatientConverter.class
+org/diagnostics/ordermanagementservice/OrdermanagementserviceApplication.class
+org/diagnostics/ordermanagementservice/repository/AddressRepository.class
+org/diagnostics/ordermanagementservice/service/PatientService.class
+org/diagnostics/ordermanagementservice/controller/OrderManagementController.class
+org/diagnostics/ordermanagementservice/dto/AddressDto.class
+org/diagnostics/ordermanagementservice/repository/PatientRepository.class
+org/diagnostics/ordermanagementservice/entity/Address.class
+org/diagnostics/ordermanagementservice/converter/AddressConverter.class
+org/diagnostics/ordermanagementservice/service/AddressService.class
+org/diagnostics/ordermanagementservice/dto/PatientDTO.class
+org/diagnostics/ordermanagementservice/service/implementation/PatientServiceImplementation.class
+org/diagnostics/ordermanagementservice/service/implementation/AddressServiceImplementation.class
+org/diagnostics/ordermanagementservice/service/implementation/PatientException.class
+org/diagnostics/ordermanagementservice/service/implementation/AddressException.class
+org/diagnostics/ordermanagementservice/entity/Patient.class

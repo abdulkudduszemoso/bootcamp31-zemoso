@@ -1,0 +1,47 @@
+# # image: docker:latest
+# # services: 
+# #   - name: docker:20-dind
+# #     command: ["--tls=false"]
+
+# # variables:
+# #   DOCKER_HOST: tcp://docker:2375
+# #   DOCKER_DRIVER: overlay
+# #   DOCKER_TLS_CERTDIR: ""
+
+# # stages:
+# #   - build
+# #   - deploy
+
+# # build:
+# #   stage: build
+# #   before_script:
+# #     - docker --version
+# #     - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD"
+# #   script:
+# #     - docker build -t bc-31-frontend:latest .
+# #     - docker tag bc-31-frontend:latest "$CI_REGISTRY_USER"/bc-31-frontend:latest
+# #     - docker push "$CI_REGISTRY_USER/bc-31-frontend:latest"
+# #   only:
+# #     - dev
+
+# # deploy:
+# #   stage: deploy
+# #   image: kroniak/ssh-client
+# #   before_script:
+# #     - mkdir -p ~/.ssh
+# #     - echo -e "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+# #     - chmod 600 ~/.ssh/id_rsa
+# #     - touch ~/.ssh/config
+# #     - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config 
+# #   script:
+# #     - echo "deploying app"
+# #     - ssh ubuntu@$SERVER_IP "sudo docker stop frontend"
+# #     - ssh ubuntu@$SERVER_IP "sudo docker rm frontend"
+# #     - ssh ubuntu@$SERVER_IP "sudo docker rmi -f (docker images -q)"
+# #     - ssh ubuntu@$SERVER_IP "sudo docker pull "$CI_REGISTRY_USER/bc-31-frontend:latest""
+# #     - ssh ubuntu@$SERVER_IP "sudo docker run -d -p 80:80 --name frontend "$CI_REGISTRY_USER/bc-31-frontend:latest""
+# #   only:
+# #     - dev
+# #   environment:
+# #     name: Development
+# #     url: http://18.222.239.141

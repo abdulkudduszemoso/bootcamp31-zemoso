@@ -1,0 +1,8 @@
+org/diagnostics/reportmanagementservice/converter/ReportConverter.class
+org/diagnostics/reportmanagementservice/dto/ReportDto.class
+org/diagnostics/reportmanagementservice/repository/ReportRepository.class
+org/diagnostics/reportmanagementservice/ReportmanagementserviceApplication.class
+org/diagnostics/reportmanagementservice/service/implementation/ReportsServiceImplementation.class
+org/diagnostics/reportmanagementservice/entity/Report.class
+org/diagnostics/reportmanagementservice/controller/ReportManagementController.class
+org/diagnostics/reportmanagementservice/service/ReportsService.class

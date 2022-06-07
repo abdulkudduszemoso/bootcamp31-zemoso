@@ -1,0 +1,6 @@
+org/diagnostics/reportmanagementservice/converter/ReportConverterTest.class
+org/diagnostics/reportmanagementservice/dto/ReportDTOTest.class
+org/diagnostics/reportmanagementservice/controller/ReportManagementControllerTest.class
+org/diagnostics/reportmanagementservice/ReportmanagementserviceApplicationTests.class
+org/diagnostics/reportmanagementservice/service/ReportServiceTest.class
+org/diagnostics/reportmanagementservice/entity/ReportEntityTest.class

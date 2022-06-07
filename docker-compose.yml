@@ -1,0 +1,62 @@
+version: '3.3'
+
+services:
+
+
+    
+  lab-management :
+    image: gnvsai2020/bc31-lab:latest
+    container_name: lab
+    restart: always
+    environment:
+    - spring.datasource.url=jdbc:mysql://db:3306/bc_31_database_service
+    - spring.datasource.username=root
+    - spring.datasource.password=test123
+    - spring.jpa.hibernate.ddl-auto=update
+    ports:
+     - 9091:9091
+    depends_on:
+     - db
+
+
+  order-management: 
+    image: gnvsai2020/bc31-order:latest
+    container_name: order
+    restart: always
+    environment:
+    - spring.datasource.url=jdbc:mysql://db:3306/bc_31_database_service 
+    - spring.datasource.username=root
+    - spring.datasource.password=test123
+    - spring.jpa.hibernate.ddl-auto=update
+    ports:
+     - 9090:9090
+    depends_on:
+     - db
+
+  report_management:
+    image: gnvsai2020/bc31-report:latest
+    container_name: report
+    restart: always
+    environment:
+    - spring.datasource.url=jdbc:mysql://db:3306/bc_31_database_service
+    - spring.datasource.username=root
+    - spring.datasource.password=test123
+    - spring.jpa.hibernate.ddl-auto=update
+    ports:
+     - 9092:9092
+    depends_on:
+     - db
+
+  db:
+    image: mysql
+    container_name: db
+    restart: always
+    environment:
+    - MYSQL_ROOT_PASSWORD=test123
+    - MYSQL_DATABASE=bc_31_database_service
+    # entrypoint:
+    #   sh -c "
+    #     echo 'CREATE DATABASE IF NOT EXISTS bc_31_database_service' > /docker-entrypoint-initdb.d/init.sql;
+    #     /usr/local/bin/docker-entrypoint.sh --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci "
+    ports:
+     - 3306:3306

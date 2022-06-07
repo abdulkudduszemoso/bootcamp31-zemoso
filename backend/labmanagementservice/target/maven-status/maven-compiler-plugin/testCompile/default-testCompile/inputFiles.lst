@@ -1,0 +1,6 @@
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/labmanagementservice/src/test/java/org/diagnostics/labmanagementservice/converter/LabConverterTest.java
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/labmanagementservice/src/test/java/org/diagnostics/labmanagementservice/exception/LabExceptionTest.java
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/labmanagementservice/src/test/java/org/diagnostics/labmanagementservice/service/LabServiceTest.java
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/labmanagementservice/src/test/java/org/diagnostics/labmanagementservice/dto/LabDTOTest.java
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/labmanagementservice/src/test/java/org/diagnostics/labmanagementservice/controller/LabManagementControllerTest.java
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/labmanagementservice/src/test/java/org/diagnostics/labmanagementservice/entity/LabEntityTest.java

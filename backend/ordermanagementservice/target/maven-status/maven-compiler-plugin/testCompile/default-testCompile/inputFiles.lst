@@ -1,0 +1,11 @@
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/ordermanagementservice/src/test/java/org/diagnostics/ordermanagementservice/Exception/AddressExceptionTest.java
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/ordermanagementservice/src/test/java/org/diagnostics/ordermanagementservice/service/AddressServiceTest.java
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/ordermanagementservice/src/test/java/org/diagnostics/ordermanagementservice/dto/PatientDTOTest.java
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/ordermanagementservice/src/test/java/org/diagnostics/ordermanagementservice/entity/PatientEntityTest.java
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/ordermanagementservice/src/test/java/org/diagnostics/ordermanagementservice/dto/AddressDtoTest.java
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/ordermanagementservice/src/test/java/org/diagnostics/ordermanagementservice/controller/OrderManagementControllerTest.java
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/ordermanagementservice/src/test/java/org/diagnostics/ordermanagementservice/service/PatientServiceTest.java
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/ordermanagementservice/src/test/java/org/diagnostics/ordermanagementservice/entity/AddressEntityTest.java
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/ordermanagementservice/src/test/java/org/diagnostics/ordermanagementservice/Exception/PatientExceptionTest.java
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/ordermanagementservice/src/test/java/org/diagnostics/ordermanagementservice/converter/AddressConverterTest.java
+/home/venkas/bootcamp-31/bootcamp31-Diangnostic-Testing/backend/ordermanagementservice/src/test/java/org/diagnostics/ordermanagementservice/converter/PatientConverterTest.java
